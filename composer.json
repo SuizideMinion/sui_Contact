@@ -1,0 +1,19 @@
+{
+    "name": "Suizide/Contact",
+    "description": "this send email and save it into Database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sui",
+            "email": "dieerben@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Suizide\\Contact\\": "src/"
+        }
+    }
+}
