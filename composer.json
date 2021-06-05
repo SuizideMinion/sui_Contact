@@ -1,5 +1,5 @@
 {
-    "name": "Suizide/Contact",
+    "name": "suizide/contact",
     "description": "this send email and save it into Database",
     "type": "library",
     "license": "MIT",
