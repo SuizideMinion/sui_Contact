@@ -15,5 +15,12 @@
         "psr-4": {
           "Suizide\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Suizide\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
