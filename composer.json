@@ -22,8 +22,5 @@
               "Suizide\\Contact\\ContactServiceProvider"
             ]
         }
-    },
-    "require": {
-        "haruncpi/laravel-simple-captcha": "1.0"
     }
 }

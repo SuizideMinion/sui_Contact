@@ -1,7 +1,6 @@
 <?php
 
-Route::group(['namespace' => 'Suizide\Contact\Http\Controllers'], function () {
+// Route::get('contact', 'Suizide\Contact\Http\Controllers\ContactController@index')->name('contact');
+// Route::post('contact', 'Suizide\Contact\Http\Controllers\ContactController@store');
 
-  Route::get('contact', 'ContactController@index')->name('contact');
-  Route::post('contact', 'ContactController@send');
-});
+Route::resource('contact', \Suizide\Contact\Http\Controllers\ContactController::class);
